@@ -1,19 +1,24 @@
 === Cg Image Mask ===
-Contributors:      The WordPress Contributors
+Contributors:      Calum Galbraith
 Tags:              block
 Tested up to:      6.6
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Image mask block. Mask an image with over 20 different SVG shapes.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+Mask an image with an SVG shape, with over 20 to choose from.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Mask options - Mask type, size and scale.
+
+Image options - Image, image size (full, large, medium and thumbnail), scale and position.
+
+Offset options - Has offset, colour, X-position, Y-position.
+
+Accent options - Accent type, colour, scale, X-position, Y-position.
 
 == Installation ==
 
@@ -21,31 +26,18 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload the plugin files to the `/wp-content/plugins/cg-image-mask` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/cg-image-mask` directory, or zip the files and install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Plans for expanding =
 
-An answer to that question.
+Dynamically pull in the image sizes. Add new SVGs.
 
-= What about foo bar? =
 
-Answer to foo bar dilemma.
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
-
-== Changelog ==
-
-= 0.1.0 =
+= 0.1.2 =
 * Release
 
 == Arbitrary section ==
