@@ -1,0 +1,14 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-cg-cg-image-mask {
+	border: 1px dotted #f00;
+	.offset-shape, .accent-shape {
+		top: -13px;
+		mask-size: 91.85% 91.85%;   
+	  }
+	
+}

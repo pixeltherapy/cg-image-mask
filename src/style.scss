@@ -1,0 +1,207 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-cg-cg-image-mask {
+	position: relative;
+
+	.mask-image {
+		width: 100%;
+		min-height: 200px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		
+	  }
+	.mask{
+		
+		mask-size: 100% 100%;
+	}
+	.mask, .offset-shape, .accent-shape{
+		width: 100%;
+		height:100%;
+	}
+	.cg-mask-blob {
+		mask: url(assets/masks/blob.svg) no-repeat center ;
+		-webkit-mask: url(assets/masks/blob.svg) no-repeat center ;
+		
+	}
+	
+	.cg-mask-bars {
+		mask: url(assets/masks/bars.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/bars.svg) no-repeat center;
+		
+	}
+	.cg-mask-bean {
+		mask: url(assets/masks/bean.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/bean.svg) no-repeat center;
+	
+	}
+	.cg-mask-boxes {
+		mask: url(assets/masks/boxes.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/boxes.svg) no-repeat center;
+	
+	}
+	.cg-mask-boxes-offset {
+		mask: url(assets/masks/boxes-offset.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/boxes-offset.svg) no-repeat center;
+	
+	}
+	.cg-mask-cirlces {
+		mask: url(assets/masks/circles.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/circles.svg) no-repeat center;
+	
+	}
+	.cg-mask-circle-grunge {
+		mask: url(assets/masks/circle-grunge.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/circle-grunge.svg) no-repeat center;
+	
+	}
+	.cg-mask-columns{
+		mask: url(assets/masks/columns.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/columns.svg) no-repeat center;
+	
+	}
+	.cg-mask-columns-abstract {
+		mask: url(assets/masks/columns-abstract.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/columns-abstract.svg) no-repeat center;
+	
+	}
+	.cg-mask-columns-random {
+		mask: url(assets/masks/columns-random.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/columns-random.svg) no-repeat center;
+	
+	}
+	.cg-mask-diamond-arrow {
+		mask: url(assets/masks/diamond-arrow.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/diamond-arrow.svg ) no-repeat center;
+	
+	}
+	.cg-mask-diamonds {
+		mask: url(assets/masks/diamonds.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/diamonds.svg) no-repeat center;
+	
+	}
+	.cg-mask-grunge-rip {
+		mask: url(assets/masks/grunge-rip.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/grunge-rip.svg) no-repeat center;
+	
+	}
+	.cg-mask-hexagon {
+		mask: url(assets/masks/hexagon.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/hexagon.svg) no-repeat center;
+	
+	}
+	.cg-mask-honeycomb {
+		mask: url(assets/masks/honeycomb.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/honeycomb.svg) no-repeat center;
+	
+	}
+	.cg-mask-iso-cube {
+		mask: url(assets/masks/iso-cube.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/iso-cube.svg) no-repeat center;
+	
+	}
+	.cg-mask-lean-to {
+		mask: url(assets/masks/lean-to.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/lean-to.svg) no-repeat center;
+	
+	}
+	.cg-mask-scribble {
+		mask: url(assets/masks/scribble.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/scribble.svg) no-repeat center;
+	
+	}
+	.cg-mask-sheet {
+		mask: url(assets/masks/sheet.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/sheet.svg) no-repeat center;
+	
+	}
+	.cg-mask-squares-rounded {
+		mask: url(assets/masks/squares-rounded.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/squares-rounded.svg) no-repeat center;
+	
+	}
+	.cg-mask-stretch-star {
+		mask: url(assets/masks/stretch-star.svg) no-repeat center;
+		-webkit-mask: url(assets/masks/stretch-star.svg) no-repeat center;
+	
+	}
+
+	.offset-shape {
+		background: black;
+		mask-size: 100% 100%;
+		position: absolute;
+		top: 0;
+		z-index: -1;   
+	  }
+	  .cg-accent-circle {
+		mask: url(assets/accents/circle.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/circle.svg) no-repeat center;
+	  }
+	  .cg-accent-circle-lines {
+		mask: url(assets/accents/circle-lines.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/circle-lines.svg) no-repeat center;
+	  }
+	  .cg-accent-dots {
+		mask: url(assets/accents/dots.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/dots.svg) no-repeat center;
+	  }
+	  .cg-accent-hexagon-lines {
+		mask: url(assets/accents/hexagon-lines.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/hexagon-lines.svg) no-repeat center;
+	  }
+	  .cg-accent-hexagon {
+		mask: url(assets/accents/hexagon.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/hexagon.svg) no-repeat center;
+	  }
+	  .cg-accent-line-squiggle {
+		mask: url(assets/accents/line-squiggle.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/line-squiggle.svg) no-repeat center;
+	  }
+	  .cg-accent-line-straight {
+		mask: url(assets/accents/line-straight.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/line-straight.svg) no-repeat center;
+	  }
+	  .cg-accent-line-zig {
+		mask: url(assets/accents/line-zig.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/line-zig.svg) no-repeat center;
+	  }
+	  .cg-accent-square-lines {
+		mask: url(assets/accents/square-lines.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/square-lines.svg) no-repeat center;
+	  }
+	  .cg-accent-square {
+		mask: url(assets/accents/square.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/square.svg) no-repeat center;
+	  }
+	  .cg-accent-brush-1 {
+		mask: url(assets/accents/brush-1.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/brush-1.svg) no-repeat center;
+	  }
+	  .cg-accent-brush-2 {
+		mask: url(assets/accents/brush-2.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/brush-2.svg) no-repeat center;
+	  }
+	  .cg-accent-triangle-lines {
+		mask: url(assets/accents/triangle-lines.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/triangle-lines.svg) no-repeat center;
+	  }
+	  .cg-accent-triangle {
+		mask: url(assets/accents/triangle-outline.svg) no-repeat center;
+		-webkit-mask: url(assets/accents/triangle-outline.svg) no-repeat center;
+	  }
+
+	  .accent-shape {
+		mask-size: 100% 100%;
+		position: absolute;
+		top: 0;
+		background: black;
+		mix-blend-mode: hard-light;
+	  }
+
+}
+

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cg/cg-image-mask",
+  "version": "0.1.2",
+  "title": "CG Image Mask",
+  "category": "media",
+  "icon": "format-image",
+  "description": "Custom Block for masking images with SVG shapes",
+  "keywords": [
+    "image",
+    "mask",
+    "svg"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "attributes": {
+    "imageToMask": {
+      "type": "object",
+      "default": {}
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "large"
+    },
+    "xAxis": {
+      "type": "number",
+      "default": 0
+    },
+    "yAxis": {
+      "type": "number",
+      "default": 0
+    },
+    "imageScale": {
+      "type": "number",
+      "default": 0
+    },
+    "maskScale": {
+      "type": "number",
+      "default": 0
+    },
+    "maskColor": {
+      "type": "string",
+      "default": "black"
+    },
+    "maskWidth": {
+      "type": "number",
+      "default": 100
+    },
+    "maskRotate": {
+      "type": "number",
+      "default": 0
+    },
+    "accentType": {
+      "type": "string"
+    },
+    "maskType": {
+      "type": "string"
+    },
+    "offsetShape": {
+      "type": "boolean",
+      "default": false
+    },
+    "offsetXAxis": {
+      "type": "number",
+      "default": 0
+    },
+    "offsetYAxis": {
+      "type": "number",
+      "default": 0
+    },
+    "accentShape": {
+      "type": "boolean",
+      "default": false
+    },
+    "accentSize": {
+      "type": "number",
+      "default": 0
+    },
+    "accentXAxis": {
+      "type": "number",
+      "default": 0
+    },
+    "accentYAxis": {
+      "type": "number",
+      "default": 0
+    },
+    "accentIndex": {
+      "type": "number",
+      "default": 3
+    },
+    "accentRotate": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "textdomain": "cg-image-mask",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
