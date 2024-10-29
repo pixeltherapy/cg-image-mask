@@ -116,11 +116,14 @@ export default function Edit({ attributes, setAttributes }) {
 							{ label: 'Hexagon', value: 'cg-mask-hexagon ' },
 							{ label: 'Honeycomb', value: 'cg-mask-honeycomb ' },
 							{ label: 'Iso Cube', value: 'cg-mask-iso-cube ' },
-							{ label: 'Lean To', value: 'cg-mask-lean-to ' },
+							{ label: 'Iso Square', value: 'cg-mask-iso-square ' },
 							{ label: 'Scribble', value: 'cg-mask-scribble ' },
 							{ label: 'Sheet', value: 'cg-mask-sheet ' },
 							{ label: 'Squares Rounded', value: 'cg-mask-squares-rounded ' },
 							{ label: 'Stretch Star', value: 'cg-mask-stretch-star ' },
+							{ label: 'Swoop', value: 'cg-mask-swoop ' },
+							{ label: 'Trapeziod Grunge', value: 'cg-mask-trapeziod-grunge ' },
+							{ label: 'Triangle Grunge', value: 'cg-mask-triangle-grunge ' },
 
 						]}
 						onChange={(value) => setAttributes({ maskType: value })}

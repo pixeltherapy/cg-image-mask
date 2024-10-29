@@ -187,8 +187,8 @@ function Edit({
             label: 'Iso Cube',
             value: 'cg-mask-iso-cube '
           }, {
-            label: 'Lean To',
-            value: 'cg-mask-lean-to '
+            label: 'Iso Square',
+            value: 'cg-mask-iso-square '
           }, {
             label: 'Scribble',
             value: 'cg-mask-scribble '
@@ -201,6 +201,15 @@ function Edit({
           }, {
             label: 'Stretch Star',
             value: 'cg-mask-stretch-star '
+          }, {
+            label: 'Swoop',
+            value: 'cg-mask-swoop '
+          }, {
+            label: 'Trapeziod Grunge',
+            value: 'cg-mask-trapeziod-grunge '
+          }, {
+            label: 'Triangle Grunge',
+            value: 'cg-mask-triangle-grunge '
           }],
           onChange: value => setAttributes({
             maskType: value
